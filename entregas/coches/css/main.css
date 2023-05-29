@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+/* font-family: 'Lexend Deca', sans-serif; */
+
+
+@font-face {
+    font-family: "Garnet Capitals Black";
+    src: url("../fonts/GarnetCapitals-Black.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+body {
+    clear: both;
+}
+
+.navFixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.container-nav {
+    background: #101010;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-family: "Garnet Capitals Black";
+
+
+}
+
+.nav li {
+    display: inline;
+    font-size: 1.2rem;
+    margin: 0 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: #E3B034;
+}
+
+button {
+    padding: 8px;
+    background: #E3B034;
+    border-radius: 5px;
+}
+
+.mainCentral {
+    margin-bottom: 20px;
+}
+
+.imagen img {
+    width: 100%;
+    margin: 10px;
+}
+
+.textoCentral h2 {
+    font-family: "Garnet Capitals Black";
+    text-align: center;
+    margin-top: 10px;
+    color: #E3B034;
+}
+
+.textoCentral p {
+    text-align: justify;
+    margin: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+footer {
+    margin-top: 30px;
+    background: #101010;
+    color: white;
+}
+
+.datosFooter h2 {
+    font-family: "Garnet Capitals Black";
+    text-align: center;
+    margin-top: 10px;
+    color: #E3B034;
+}
+
+.datosFooter p {
+    text-align: justify;
+    margin: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.contactform {
+    text-align: center;
+}
+
+.contactform input {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    background: #FCFFB2;
+}
+
+.buttonFooter {
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+}
+
+.buttonFooter:hover {
+    color: white;
+    background: #7AA874;
+}
+
+hr {
+    margin: 20px 10px;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+footer h1 {
+    text-align: center;
+    font-family: "Garnet Capitals Black";
+    color: #E3B034;
+    padding-top: 10px;
+}
+
+.containerModelos {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 200px;
+}
+
+.containerModelos h2 {
+    margin-bottom: 40px;
+}
+
+.infoModelo {
+    text-align: justify;
+    padding: 50px;
+    background: #EEEEEE;
+}
+
+.containerModelos2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.containerModelos2 h2 {
+    margin-bottom: 40px;
+}
+
+.infoModelo2 {
+    padding: 50px;
+    text-align: justify;
+    background: #EEEEEE;
+}
+
+.containerModelos3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.containerModelos3 h2 {
+    margin-bottom: 40px;
+}
+
+.infoModelo3 {
+    padding: 50px;
+    text-align: justify;
+    background: #EEEEEE;
+}
+
+.containerModelos4 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.containerModelos4 h2 {
+    margin-bottom: 40px;
+}
+
+.infoModelo4 {
+    padding: 50px;
+    text-align: justify;
+    background: #EEEEEE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .navFixed {
+        flex-direction: column;
+        padding: 0;
+        position: relative;
+        height: 260px;
+    }
+
+    .nav a {
+        display: block;
+        text-align: center;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    button {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .containerModelos,
+    .containerModelos2,
+    .containerModelos3,
+    .containerModelos4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .imagenModelo, .imagenModelo2, .imagenModelo3, .imagenModelo4, img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .mainCentral {
+        margin-top: 30px;
+    }
+
+    .imagen img {
+        width: 50%;
+        margin: 10px;
+        float: left;
+    }
+
+    .textoCentral h2 {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .textoCentral p {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1280px) {
+    .textoCentral p {
+        font-size: 1rem;
+    }
+}
+
