@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMBORGHINI</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/jpg" href="./images/favicon.png" />
+</head>
+
+<body>
+    <!-- Comienza el menu de navegacion -->
+    <div class="container-nav">
+        <div class="logo">
+            <a href="./index.html"><img src="./images/logo.jpg" alt="Logo Lamborghini" width="150"></a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li> <a href="./index.html">INICIO</a></li>
+                <li> <a href="./nosotros.html">NOSOTROS</a></li>
+                <li> <a href="./modelos.html">MODELOS</a></li>
+                <li> <a href="#contactform">CONTACTO</a></li>
+            </ul>
+        </div>
+        <div class="boton">
+            <input type="text" placeholder="Usuario">
+            <input type="password" placeholder="Contraseña">
+            <button>Sign In</button>
+        </div>
+        <div class="botonRegistro">
+            <a href="./registro.html"><button>Sign Up</button></a>
+        </div>
+        <div class="buscar">
+            <input type="search" placeholder="Buscar">
+        </div>
+
+    </div>
+    <!-- Comienza el contenedor central -->
+    <form action="#" class="registerForm">
+        <h1>REGISTRATE</h1>
+        <input type="text" placeholder="Nombre"><br>
+        <input type="text" placeholder="Introduzca su DNI" pattern="[0-9]{8}[A-Za-z]{1}"
+            title="Debe poner 8 números y una letra" minlength="9" maxlength="9" /><br>
+        <input type="text" placeholder="Nombre de Usuario"><br>
+        <input type="tel" placeholder="Telefono" pattern="^[9|8|7|6]\d{8}$"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="date" placeholder="Fecha de Nacimiento"><br>
+
+        <legend>Sexo:</legend>
+        <div>
+            <input type="radio" id="hombre" name="hombre" value="hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="mujer" value="mujer">
+            <label for="mujer">Mujer</label>
+        </div><br>
+        <h1>Hobbies</h1>
+        <input type="checkbox">
+        <label for="vehicle1">Leer</label>
+        <input type="checkbox">
+        <label for="vehicle2">Nadar</label>
+        <input type="checkbox">
+        <label for="vehicle3"> Esquiar</label><br><br>
+
+        <input type="password" placeholder="Password"><br>
+        <input type="checkbox" data-required="1" name="terminos" value="">
+        <label for="vehicle3"> Acepto la politica
+            de privacidad</label><br>
+        <button class="buttonFooter">Enviar</button>
+
+    </form>
+
+    <hr>
+    <footer>
+
+        <div class="contactform" id="contactform">
+            <h1>CONTACTANOS</h1>
+            <input type="text" placeholder="Nombre"  pattern="[A-Za-z]{20}" title="De 4 a 20 Caracteres" minlength="4" maxlength="20" /><br>
+            <input type="tel" placeholder="Telefono"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="text" placeholder="Mensaje"><br>
+            <button class="buttonFooter">Enviar</button>
+        </div>
+        <hr>
+        <div class="datosFooter">
+            <h2>LAMBORGHINI ITALY</h2>
+            <p>Via Leonida Bissolati, 62, 00187 Roma RM, Italia</p>
+            <p>Teléfono: +39 347 656 2436</p>
+            <p>&copy; JACOREYES 2023</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
